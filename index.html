@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedHelp</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="chat-container">
+            <h1>MedHelp ChatBot</h1>
+            <div class="chat-box" id="chatBox"></div>
+            <div class="input-container">
+                <input type="text" id="userInput" placeholder="Enter your symptoms..." />
+                <button onclick="sendMessage()">
+                    <div class="svg-wrapper">
+                        <svg viewBox="0 0 20 20">
+                            <path d="M2,10 L18,10 M14,6 L18,10 L14,14"></path>
+                        </svg>
+                    </div>
+                    <span>Send</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
